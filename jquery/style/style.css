@@ -1,0 +1,53 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+}
+.name {
+    text-align: center;
+}
+.contenedor-principal{
+    
+    padding:10px;
+
+}
+ .colita{
+     background-color: rgb(204, 198, 198);
+ }
+
+.check {
+    display:flex;
+    flex: 10px;
+    padding:5px 300px;
+    
+}
+
+input[type=button] {
+    background-color: rgb(78, 243, 78);
+    color:rgb(83, 80, 80);
+    display :grid;
+    padding: 10px 20px;
+    grid: 10fr;
+    width:300px;
+    border-radius:80px;
+
+}
+.confirmation {
+    display: none;
+    background-color: white;
+    
+
+
+}
+
+.show {
+    display: block;
+    
+    text-align: center;
+    font-size: medium;
+}
+
+.hide {
+    display: none;
+}
